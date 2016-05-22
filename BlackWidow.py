@@ -59,7 +59,7 @@ def takeAction(word):
         subject = 'Spy'
         text = ''
         sendEmailWithFields(to,subject,text)
-    if word=="down":
+    if word=="muffet":
         print "PLAY A WHOLE NEW WORLD OR WHATEVER"
         to = 'largespiderfactory@gmail.com'
         subject = 'Ebola'
@@ -69,6 +69,12 @@ def takeAction(word):
         print "Requiem start"
         to = 'largespiderfactory@gmail.com'
         subject = 'Fight'
+        text = ''
+        sendEmailWithFields(to,subject,text)
+    if word=="down":
+        print "Requiem start"
+        to = 'largespiderfactory@gmail.com'
+        subject = 'IBS'
         text = ''
         sendEmailWithFields(to,subject,text)
 
